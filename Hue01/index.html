@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wetter App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+<h1>Wetter App</h1>
+<h2>Bitte geben Sie einen Ort und/oder eine Postleitzahl ein, um das Wetter abzufragen.</h2>
+
+<form id="weatherForm">
+    <p>PLZ: </p><input type="text" id="zipInput" placeholder="PLZ eingeben">
+    <p>Ort: </p><input type="text" id="cityInput" placeholder="Ortsnamen eingeben">
+    <button id="searchBtn" type="submit">Wetter abrufen</button>
+</form>
+
+<div id="weatherDisplay">
+    <div id="weatherIcon"></div>
+    <h3 id="temperature"></h3>
+    <h3 id="weatherDescription"></h3>
+    <h2 id="city"></h2>
+    <h2 id="location"></h2>
+    <h3 id="state"></h3>
+    <h3 id="country"></h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+meine JavaScript-Datei steuert das Formular, holt Geodaten (Nominatim) über getCoordinates, fragt mit den Koordinaten das Wetter in searchWeather ab und speichert die zuletzt gefundenen Ortsdaten in lastLocationData.
+updateWeatherData aktualisiert DOM‑Elemente wie #weatherIcon, #temperature, #weatherDescription und formatiert bei vorhandenen Ortsdaten #location als „Ort, Bundesland, Land“.
+Es gibt einen Submit‑Listener, der UI‑Zustände (Button deaktivieren, Fehleranzeige) handhabt und asynchrone Aufrufe mit async/await und try/catch absichert.
+Fehler werden im Element #error angezeigt und der Suchbutton nach Abschluss wieder aktiviert
